@@ -12,7 +12,7 @@
 #include "sensor_msgs/msg/image.hpp"
 
 //OpenCV and OpenCV-to-ROS message CVBridge library includes:
-#include <opencv2/opencv.hpp
+#include <opencv2/opencv.hpp>
 #include "cv_bridge/cv_bridge.h"
 #include <opencv2/core/types.hpp>
 #include <opencv2/core/hal/interface.h>
