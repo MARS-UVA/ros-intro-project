@@ -19,18 +19,18 @@ find_package(OpenCV REQUIRED)
 # find_package(<dependency> REQUIRED)
 include_directories(include)
 
-add_executable(cam_pub src/simple_publisher.cpp)
-add_executable(cam_sub src/simple_subscriber.cpp)
+#add_executable(cam_pub src/simple_publisher.cpp)
+#add_executable(cam_sub src/simple_subscriber.cpp)
 add_executable(webcam_pub src/webcam_image_publisher.cpp)
 target_link_libraries(webcam_pub ${OpenCV_LIBS})
 target_include_directories(webcam_pub PRIVATE ${OpenCV_INCLUDE_DIRS})
-ament_target_dependencies(cam_pub rclcpp std_msgs sensor_msgs cv_bridge image_transport OpenCV)
-ament_target_dependencies(cam_sub rclcpp std_msgs sensor_msgs cv_bridge image_transport OpenCV)
+#ament_target_dependencies(cam_pub rclcpp std_msgs sensor_msgs cv_bridge image_transport OpenCV)
+#ament_target_dependencies(cam_sub rclcpp std_msgs sensor_msgs cv_bridge image_transport OpenCV)
 ament_target_dependencies(webcam_pub rclcpp std_msgs sensor_msgs cv_bridge image_transport OpenCV)
 
 install(TARGETS
-  cam_pub
-  cam_sub
+ #cam_pub
+ # cam_sub
   webcam_pub
   DESTINATION lib/${PROJECT_NAME})
 
@@ -49,7 +49,7 @@ endif()
 
 ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
-  scripts/webcam_image_subscriber.py
+  scripts/display.py
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
