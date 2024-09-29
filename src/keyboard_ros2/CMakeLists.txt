@@ -8,7 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(rclpy REQUIRED)
+#find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
@@ -16,8 +16,8 @@ find_package(std_msgs REQUIRED)
 include_directories(include)
 
 add_executable(key_pub src/key_publisher.cpp)
-target_link_libraries(webcam_pub ${OpenCV_LIBS})
-target_include_directories(webcam_pub PRIVATE ${OpenCV_INCLUDE_DIRS})
+#target_link_libraries(webcam_pub ${OpenCV_LIBS})
+#target_include_directories(webcam_pub PRIVATE ${OpenCV_INCLUDE_DIRS})
 ament_target_dependencies(key_pub rclcpp std_msgs)
 
 install(TARGETS
@@ -37,10 +37,10 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-ament_python_install_package(${PROJECT_NAME})
-install(PROGRAMS
-  scripts/keypress_publisher.py
-  DESTINATION lib/${PROJECT_NAME})
+#ament_python_install_package(${PROJECT_NAME})
+#install(PROGRAMS
+#  scripts/keypress_publisher.py
+#  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
 

@@ -29,7 +29,7 @@ private:
     void read_keyboard() {
         char c;
         while (rclcpp::ok()) {
-            c = get_key();
+            c = get_key_press();
             if (c == 'q') {
                 rclcpp::shutdown();
                 break;
