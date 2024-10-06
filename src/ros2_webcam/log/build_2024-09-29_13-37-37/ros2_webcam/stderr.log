@@ -1,0 +1,6 @@
+[01m[K/home/mars_host/ros-intro-project/src/ros2_webcam/src/webcam_image_publisher.cpp:15:29:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+   15 | #include <opencv2/opencv.hpp
+      |                             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/webcam_pub.dir/build.make:76: CMakeFiles/webcam_pub.dir/src/webcam_image_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/webcam_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
