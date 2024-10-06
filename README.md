@@ -1,7 +1,7 @@
 # ros-intro-project
 Instructions https://docs.google.com/document/d/1C7iXEyxpRHfdLNLPw30ktIJhi-xvFPn-Bk_RU8dpcD0/edit#heading=h.bburgcg0vn3p
 
-#### Create your own branch and implement your changes, thank you!
+#### Create your own branch off of this branch please and implement your changes, thank you!
 
 **Note, this repository does not include key repositories you will need:** *build/*, *log/*, *install/*, and *include/* </br>
 You will need to run *colcon build* on the workspace directory (ros-intro-project) and the package dirctories in the *src/* folder to get these directories and be able to build your code.
