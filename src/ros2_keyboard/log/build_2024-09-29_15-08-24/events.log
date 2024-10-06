@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.001092] (ros2_keyboard) JobQueued: {'identifier': 'ros2_keyboard', 'dependencies': OrderedDict()}
+[0.002440] (ros2_keyboard) JobStarted: {'identifier': 'ros2_keyboard'}
+[0.017512] (ros2_keyboard) JobProgress: {'identifier': 'ros2_keyboard', 'progress': 'cmake'}
+[0.017614] (ros2_keyboard) Command: {'cmd': ['/usr/bin/cmake', '/home/mars_host/ros-intro-project/src/ros2_keyboard', '-DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard'], 'cwd': '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host/ros-intro-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2251'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2219,unix/mars-lunabotics:/tmp/.ICE-unix/2219'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a1fade_be1e_4c5d_b92f_bee96cd258de'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.45T0U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100407] (-) TimerEvent: {}
+[0.142046] (ros2_keyboard) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200596] (-) TimerEvent: {}
+[0.260556] (ros2_keyboard) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.274364] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301541] (-) TimerEvent: {}
+[0.399855] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.401753] (-) TimerEvent: {}
+[0.413346] (ros2_keyboard) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.413573] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.414151] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.419171] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.502067] (-) TimerEvent: {}
+[0.566954] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.578964] (ros2_keyboard) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.579764] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.581886] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.584628] (ros2_keyboard) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.602253] (-) TimerEvent: {}
+[0.703246] (-) TimerEvent: {}
+[0.803960] (-) TimerEvent: {}
+[0.849922] (ros2_keyboard) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.904395] (-) TimerEvent: {}
+[0.983183] (ros2_keyboard) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.004502] (-) TimerEvent: {}
+[1.048018] (ros2_keyboard) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.055862] (ros2_keyboard) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.067955] (ros2_keyboard) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.088690] (ros2_keyboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.104828] (-) TimerEvent: {}
+[1.120299] (ros2_keyboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204995] (-) TimerEvent: {}
+[1.229253] (ros2_keyboard) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.234977] (ros2_keyboard) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.305444] (-) TimerEvent: {}
+[1.387674] (ros2_keyboard) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.405530] (-) TimerEvent: {}
+[1.437975] (ros2_keyboard) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.505820] (-) TimerEvent: {}
+[1.509025] (ros2_keyboard) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.522933] (ros2_keyboard) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.608028] (-) TimerEvent: {}
+[1.644588] (ros2_keyboard) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.645960] (ros2_keyboard) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.708193] (-) TimerEvent: {}
+[1.805656] (ros2_keyboard) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.807944] (ros2_keyboard) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.808234] (-) TimerEvent: {}
+[1.908594] (-) TimerEvent: {}
+[2.009714] (-) TimerEvent: {}
+[2.079275] (ros2_keyboard) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.109922] (-) TimerEvent: {}
+[2.208625] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.209004] (ros2_keyboard) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mars_host/ros-intro-project/src/ros2_keyboard/include\n'}
+[2.209099] (ros2_keyboard) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.210336] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.210504] (-) TimerEvent: {}
+[2.212325] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.213582] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.219076] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.219350] (ros2_keyboard) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.220481] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.222357] (ros2_keyboard) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.234891] (ros2_keyboard) StdoutLine: {'line': b'-- Generating done\n'}
+[2.239892] (ros2_keyboard) StdoutLine: {'line': b'-- Build files have been written to: /home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard\n'}
+[2.253889] (ros2_keyboard) CommandEnded: {'returncode': 0}
+[2.254364] (ros2_keyboard) JobProgress: {'identifier': 'ros2_keyboard', 'progress': 'build'}
+[2.254401] (ros2_keyboard) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard', '--', '-j2', '-l2'], 'cwd': '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host/ros-intro-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2251'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2219,unix/mars-lunabotics:/tmp/.ICE-unix/2219'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a1fade_be1e_4c5d_b92f_bee96cd258de'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.45T0U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.310756] (-) TimerEvent: {}
+[2.346730] (ros2_keyboard) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/key_pub.dir/src/key_publisher.cpp.o\x1b[0m\n'}
+[2.412396] (-) TimerEvent: {}
+[2.512898] (-) TimerEvent: {}
+[2.613493] (-) TimerEvent: {}
+[2.714515] (-) TimerEvent: {}
+[2.815949] (-) TimerEvent: {}
+[2.916964] (-) TimerEvent: {}
+[3.018002] (-) TimerEvent: {}
+[3.118948] (-) TimerEvent: {}
+[3.220018] (-) TimerEvent: {}
+[3.321120] (-) TimerEvent: {}
+[3.422387] (-) TimerEvent: {}
+[3.524058] (-) TimerEvent: {}
+[3.625344] (-) TimerEvent: {}
+[3.725861] (-) TimerEvent: {}
+[3.827097] (-) TimerEvent: {}
+[3.928482] (-) TimerEvent: {}
+[4.029018] (-) TimerEvent: {}
+[4.130121] (-) TimerEvent: {}
+[4.231127] (-) TimerEvent: {}
+[4.331638] (-) TimerEvent: {}
+[4.433084] (-) TimerEvent: {}
+[4.533604] (-) TimerEvent: {}
+[4.634402] (-) TimerEvent: {}
+[4.735213] (-) TimerEvent: {}
+[4.836297] (-) TimerEvent: {}
+[4.937868] (-) TimerEvent: {}
+[5.038259] (-) TimerEvent: {}
+[5.139341] (-) TimerEvent: {}
+[5.240489] (-) TimerEvent: {}
+[5.340995] (-) TimerEvent: {}
+[5.442488] (-) TimerEvent: {}
+[5.543441] (-) TimerEvent: {}
+[5.644527] (-) TimerEvent: {}
+[5.745425] (-) TimerEvent: {}
+[5.847480] (-) TimerEvent: {}
+[5.948638] (-) TimerEvent: {}
+[6.049104] (-) TimerEvent: {}
+[6.150064] (-) TimerEvent: {}
+[6.250409] (-) TimerEvent: {}
+[6.351444] (-) TimerEvent: {}
+[6.452070] (-) TimerEvent: {}
+[6.552467] (-) TimerEvent: {}
+[6.653240] (-) TimerEvent: {}
+[6.753644] (-) TimerEvent: {}
+[6.854808] (-) TimerEvent: {}
+[6.955471] (-) TimerEvent: {}
+[7.056573] (-) TimerEvent: {}
+[7.157019] (-) TimerEvent: {}
+[7.257371] (-) TimerEvent: {}
+[7.358765] (-) TimerEvent: {}
+[7.459261] (-) TimerEvent: {}
+[7.559624] (-) TimerEvent: {}
+[7.660832] (-) TimerEvent: {}
+[7.762202] (-) TimerEvent: {}
+[7.862586] (-) TimerEvent: {}
+[7.963899] (-) TimerEvent: {}
+[8.064307] (-) TimerEvent: {}
+[8.165550] (-) TimerEvent: {}
+[8.266839] (-) TimerEvent: {}
+[8.367261] (-) TimerEvent: {}
+[8.468749] (-) TimerEvent: {}
+[8.569785] (-) TimerEvent: {}
+[8.671037] (-) TimerEvent: {}
+[8.728405] (ros2_keyboard) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable key_pub\x1b[0m\n'}
+[8.771456] (-) TimerEvent: {}
+[8.872691] (-) TimerEvent: {}
+[8.973077] (-) TimerEvent: {}
+[8.999031] (ros2_keyboard) StdoutLine: {'line': b'[100%] Built target key_pub\n'}
+[9.019197] (ros2_keyboard) CommandEnded: {'returncode': 0}
+[9.063941] (ros2_keyboard) JobProgress: {'identifier': 'ros2_keyboard', 'progress': 'install'}
+[9.073419] (-) TimerEvent: {}
+[9.078293] (ros2_keyboard) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard'], 'cwd': '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host/ros-intro-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2251'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2219,unix/mars-lunabotics:/tmp/.ICE-unix/2219'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a1fade_be1e_4c5d_b92f_bee96cd258de'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.45T0U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.091015] (ros2_keyboard) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.091224] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/lib/ros2_keyboard/key_pub\n'}
+[9.092708] (ros2_keyboard) StdoutLine: {'line': b'-- Set runtime path of "/home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/lib/ros2_keyboard/key_pub" to ""\n'}
+[9.093139] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ament_index/resource_index/package_run_dependencies/ros2_keyboard\n'}
+[9.093470] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ament_index/resource_index/parent_prefix_path/ros2_keyboard\n'}
+[9.093825] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.sh\n'}
+[9.094295] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.dsv\n'}
+[9.095164] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/environment/path.sh\n'}
+[9.095349] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/environment/path.dsv\n'}
+[9.095429] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/local_setup.bash\n'}
+[9.095498] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/local_setup.sh\n'}
+[9.095586] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/local_setup.zsh\n'}
+[9.095648] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/local_setup.dsv\n'}
+[9.095988] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/package.dsv\n'}
+[9.096094] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ament_index/resource_index/packages/ros2_keyboard\n'}
+[9.096162] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig.cmake\n'}
+[9.096224] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig-version.cmake\n'}
+[9.096283] (ros2_keyboard) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_keyboard/install/ros2_keyboard/share/ros2_keyboard/package.xml\n'}
+[9.098506] (ros2_keyboard) CommandEnded: {'returncode': 0}
+[9.174132] (-) TimerEvent: {}
+[9.175475] (ros2_keyboard) JobEnded: {'identifier': 'ros2_keyboard', 'rc': 0}
+[9.177188] (-) EventReactorShutdown: {}

@@ -16,7 +16,7 @@ class WebcamSubscriber(Node):
         self.get_logger().info("Webcam subscriber node init")
         self.subscription = self.create_subscription(  #Creating a subscription with a callback
             Image,
-            'webcam_topic',
+            'gray_image',
             self.listener_callback,
             10  # This number which you see in the C++ publisher nodes as well is the queue size, that is how many messages to keep in the queue (subscriber queue in this case). Any message that exceeds the queue will be dicarded
         )
@@ -24,7 +24,7 @@ class WebcamSubscriber(Node):
 
     #Callback function called when a message is ready to be processed from the subscriber queue
     def listener_callback(self, msg):
-        cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')  #Convert image to OpenCV matrix
+        cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')  #Convert image to OpenCV matrix
 
         cv2.imshow("Image", cv_image)
         cv2.waitKey(1)

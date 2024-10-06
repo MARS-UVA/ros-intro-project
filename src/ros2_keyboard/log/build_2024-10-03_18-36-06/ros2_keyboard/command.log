@@ -1,0 +1,2 @@
+Invoking command in '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard -- -j2 -l2
+Invoked command in '/home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_keyboard/build/ros2_keyboard -- -j2 -l2
