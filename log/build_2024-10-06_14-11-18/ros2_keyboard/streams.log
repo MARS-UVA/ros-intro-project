@@ -1,0 +1,70 @@
+[0.169s] Invoking command in '/home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/ros-intro-project/src/ros2_keyboard -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard
+[0.973s] -- The C compiler identification is GNU 11.4.0
+[1.241s] -- The CXX compiler identification is GNU 11.4.0
+[1.293s] -- Detecting C compiler ABI info
+[2.036s] -- Detecting C compiler ABI info - done
+[2.085s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.087s] -- Detecting C compile features
+[2.090s] -- Detecting C compile features - done
+[2.121s] -- Detecting CXX compiler ABI info
+[3.382s] -- Detecting CXX compiler ABI info - done
+[3.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.384s] -- Detecting CXX compile features
+[3.405s] -- Detecting CXX compile features - done
+[3.405s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.352s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.711s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.049s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.085s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.217s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.437s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.582s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.583s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.811s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.012s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.867s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.981s] -- Looking for pthread.h
+[10.877s] -- Looking for pthread.h - found
+[10.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.255s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.272s] -- Found Threads: TRUE  
+[14.531s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.867s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.938s] -- Configured cppcheck include dirs: /home/mars_host/ros-intro-project/ros-intro-project/src/ros2_keyboard/include
+[14.959s] -- Configured cppcheck exclude dirs and/or files: 
+[14.959s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.959s] -- Added test 'lint_cmake' to check CMake code style
+[14.959s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.959s] -- Added test 'uncrustify' to check C / C++ code style
+[14.959s] -- Configured uncrustify additional arguments: 
+[14.960s] -- Added test 'xmllint' to check XML markup files
+[14.960s] -- Configuring done
+[15.040s] -- Generating done
+[15.178s] -- Build files have been written to: /home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard
+[15.299s] Invoked command in '/home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/ros-intro-project/src/ros2_keyboard -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard
+[15.317s] Invoking command in '/home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard -- -j2 -l2
+[16.580s] [ 50%] [32mBuilding CXX object CMakeFiles/key_pub.dir/src/key_publisher.cpp.o[0m
+[30.640s] [100%] [32m[1mLinking CXX executable key_pub[0m
+[31.439s] [100%] Built target key_pub
+[31.524s] Invoked command in '/home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard -- -j2 -l2
+[32.079s] Invoking command in '/home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard
+[32.280s] -- Install configuration: ""
+[32.286s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/lib/ros2_keyboard/key_pub
+[32.287s] -- Set runtime path of "/home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/lib/ros2_keyboard/key_pub" to ""
+[32.287s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/package_run_dependencies/ros2_keyboard
+[32.287s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/parent_prefix_path/ros2_keyboard
+[32.287s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.sh
+[32.287s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.dsv
+[32.287s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/path.sh
+[32.293s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/path.dsv
+[32.293s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.bash
+[32.293s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.sh
+[32.316s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.zsh
+[32.316s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.dsv
+[32.317s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.dsv
+[32.317s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/packages/ros2_keyboard
+[32.317s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig.cmake
+[32.317s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig-version.cmake
+[32.321s] -- Installing: /home/mars_host/ros-intro-project/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.xml
+[32.321s] Invoked command in '/home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/ros-intro-project/build/ros2_keyboard
