@@ -8,7 +8,7 @@ from std_msgs.msg import String
 class KeypressPublisher(Node):
     def __init__(self):
         super().__init__('keypress_publisher')
-        self.publisher_ = self.create_publisher(String, 'key_pressed', 10)
+        self.publisher_ = self.create_publisher(String, 'keypress_topic', 10) #Publisher for Python nodes that publishes messages of type String on the 'keypress_topic' topic and has a queue of 10 messages at a time
         self.read_timer = self.create_timer(0.1, self.read_keypress_callback)
 
     def read_keypress_callback(self):
