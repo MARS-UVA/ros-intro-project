@@ -1,0 +1,8 @@
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro/ament_cmake_python/simulation-intro/simulation-intro.egg-info/'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

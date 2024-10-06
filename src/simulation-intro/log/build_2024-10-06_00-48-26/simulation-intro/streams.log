@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars_host/ros-intro-project/install/gazebo-bot:/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/src/simulation-intro -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.357s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.362s] -- Detecting CXX compiler ABI info
+[0.500s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.505s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[0.509s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.707s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.839s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.936s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.936s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mars_host/ros-intro-project/src/simulation-intro/include>
+[0.936s] -- Configured cppcheck exclude dirs and/or files: 
+[0.944s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.944s] -- Added test 'lint_cmake' to check CMake code style
+[0.944s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.944s] -- Added test 'uncrustify' to check C / C++ code style
+[0.944s] -- Configured uncrustify additional arguments: 
+[0.945s] -- Added test 'xmllint' to check XML markup files
+[0.946s] -- Configuring done
+[0.952s] -- Generating done
+[0.954s] -- Build files have been written to: /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro
+[0.975s] Invoked command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars_host/ros-intro-project/install/gazebo-bot:/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/src/simulation-intro -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro
+[0.975s] Invoking command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars_host/ros-intro-project/install/gazebo-bot:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro -- -j2 -l2
+[1.072s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.116s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.202s] [100%] Built target my_node
+[1.217s] Invoked command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars_host/ros-intro-project/install/gazebo-bot:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro -- -j2 -l2
+[1.315s] Invoking command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars_host/ros-intro-project/install/gazebo-bot:/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro
+[1.328s] -- Install configuration: ""
+[1.330s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/lib/simulation-intro/my_node
+[1.330s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//launch
+[1.330s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//launch/display.launch.py
+[1.330s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//launch/gazebo.launch.py
+[1.330s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//urdf
+[1.330s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//urdf/lunabot.urdf
+[1.330s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//rviz
+[1.330s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//rviz/config.rviz
+[1.331s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/ament_index/resource_index/package_run_dependencies/simulation-intro
+[1.331s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/ament_index/resource_index/parent_prefix_path/simulation-intro
+[1.331s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/ament_prefix_path.sh
+[1.331s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/ament_prefix_path.dsv
+[1.331s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/path.sh
+[1.331s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/path.dsv
+[1.331s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/local_setup.bash
+[1.332s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/local_setup.sh
+[1.332s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/local_setup.zsh
+[1.332s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/local_setup.dsv
+[1.332s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/package.dsv
+[1.332s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/ament_index/resource_index/packages/simulation-intro
+[1.332s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/cmake/simulation-introConfig.cmake
+[1.332s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/cmake/simulation-introConfig-version.cmake
+[1.332s] -- Installing: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/package.xml
+[1.342s] Invoked command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars_host/ros-intro-project/install/gazebo-bot:/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro

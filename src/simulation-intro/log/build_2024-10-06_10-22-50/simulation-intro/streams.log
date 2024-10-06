@@ -1,0 +1,28 @@
+[0.029s] Invoking command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro -- -j2 -l2
+[0.117s] [100%] Built target my_node
+[0.155s] Invoked command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro -- -j2 -l2
+[0.266s] Invoking command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro
+[0.278s] -- Install configuration: ""
+[0.278s] -- Execute custom install script
+[0.281s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/lib/simulation-intro/my_node
+[0.281s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/launch/display.launch.py
+[0.282s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/launch/gazebo.launch.py
+[0.282s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/urdf/lunabot.urdf
+[0.282s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/rviz/config.rviz
+[0.282s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/lib/simulation-intro/keyboard_controller.py
+[0.282s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/ament_index/resource_index/package_run_dependencies/simulation-intro
+[0.282s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/ament_index/resource_index/parent_prefix_path/simulation-intro
+[0.283s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/ament_prefix_path.sh
+[0.283s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/ament_prefix_path.dsv
+[0.283s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/path.sh
+[0.283s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/path.dsv
+[0.283s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/local_setup.bash
+[0.283s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/local_setup.sh
+[0.283s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/local_setup.zsh
+[0.283s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/local_setup.dsv
+[0.284s] -- Symlinking: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/package.dsv
+[0.297s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/ament_index/resource_index/packages/simulation-intro
+[0.297s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/cmake/simulation-introConfig.cmake
+[0.300s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/cmake/simulation-introConfig-version.cmake
+[0.304s] -- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/package.xml
+[0.305s] Invoked command in '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro

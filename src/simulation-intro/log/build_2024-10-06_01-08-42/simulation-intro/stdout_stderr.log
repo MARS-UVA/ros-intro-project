@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mars_host/ros-intro-project/src/simulation-intro/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[100%] Built target my_node
+[100%] Built target ament_cmake_python_symlink_simulation-intro
+running egg_info
+writing simulation_intro.egg-info/PKG-INFO
+writing dependency_links to simulation_intro.egg-info/dependency_links.txt
+writing top-level names to simulation_intro.egg-info/top_level.txt
+reading manifest file 'simulation_intro.egg-info/SOURCES.txt'
+writing manifest file 'simulation_intro.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_simulation-intro_egg
+-- Install configuration: ""
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/mars_host/ros-intro-project/src/simulation-intro/build/simulation-intro/ament_cmake_python/simulation-intro/simulation-intro.egg-info/'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m
+-- Execute custom install script
+-- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/lib/simulation-intro/my_node
+-- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//launch/display.launch.py
+-- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//launch/gazebo.launch.py
+-- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//urdf/lunabot.urdf
+-- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro//rviz/config.rviz
+-- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/pythonpath.sh
+-- Up-to-date symlink: /home/mars_host/ros-intro-project/src/simulation-intro/install/simulation-intro/share/simulation-intro/environment/pythonpath.dsv
