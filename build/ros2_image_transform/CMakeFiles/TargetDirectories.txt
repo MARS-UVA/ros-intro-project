@@ -1,0 +1,11 @@
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/uninstall.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/ros2_image_transform_uninstall.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/ament_cmake_python_copy_ros2_image_transform.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/ament_cmake_python_build_ros2_image_transform_egg.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/test.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/edit_cache.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/rebuild_cache.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/list_install_components.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/install.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/install/local.dir
+/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/install/strip.dir

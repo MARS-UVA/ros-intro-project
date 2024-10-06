@@ -1,0 +1,9 @@
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/uninstall.dir
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/ros2_image_uninstall.dir
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/test.dir
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/edit_cache.dir
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/rebuild_cache.dir
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/list_install_components.dir
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/install.dir
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/install/local.dir
+/home/mars_host/ros-intro-project/build/ros2_image/CMakeFiles/install/strip.dir

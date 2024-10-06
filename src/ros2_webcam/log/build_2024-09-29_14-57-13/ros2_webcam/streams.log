@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam -- -j2 -l2
+[0.127s] [100%] Built target webcam_pub
+[0.149s] [100%] Built target ament_cmake_python_copy_ros2_webcam
+[0.427s] running egg_info
+[0.427s] writing ros2_webcam.egg-info/PKG-INFO
+[0.427s] writing dependency_links to ros2_webcam.egg-info/dependency_links.txt
+[0.427s] writing top-level names to ros2_webcam.egg-info/top_level.txt
+[0.430s] reading manifest file 'ros2_webcam.egg-info/SOURCES.txt'
+[0.432s] writing manifest file 'ros2_webcam.egg-info/SOURCES.txt'
+[0.475s] [100%] Built target ament_cmake_python_build_ros2_webcam_egg
+[0.501s] Invoked command in '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam -- -j2 -l2
+[0.598s] Invoking command in '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam
+[0.613s] -- Install configuration: ""
+[0.614s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/lib/ros2_webcam/webcam_pub
+[0.614s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/pythonpath.sh
+[0.614s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/pythonpath.dsv
+[0.614s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info
+[0.614s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info/top_level.txt
+[0.617s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.618s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.619s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info/PKG-INFO
+[0.620s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam
+[0.620s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam/__init__.py
+[0.657s] Listing '/home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam'...
+[0.673s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/lib/ros2_webcam/display.py
+[0.675s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ament_index/resource_index/package_run_dependencies/ros2_webcam
+[0.676s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ament_index/resource_index/parent_prefix_path/ros2_webcam
+[0.676s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/ament_prefix_path.sh
+[0.677s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/ament_prefix_path.dsv
+[0.677s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/path.sh
+[0.677s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/path.dsv
+[0.678s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/local_setup.bash
+[0.678s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/local_setup.sh
+[0.678s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/local_setup.zsh
+[0.678s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/local_setup.dsv
+[0.678s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/package.dsv
+[0.678s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ament_index/resource_index/packages/ros2_webcam
+[0.679s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/cmake/ros2_webcamConfig.cmake
+[0.679s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/cmake/ros2_webcamConfig-version.cmake
+[0.679s] -- Up-to-date: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/package.xml
+[0.683s] Invoked command in '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam

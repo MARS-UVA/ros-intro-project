@@ -1,0 +1,44 @@
+[0.066s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/src/ros2_image -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/install/ros2_image
+[0.092s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.293s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.308s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.320s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.323s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.377s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.608s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.969s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.969s] -- Configured cppcheck include dirs: 
+[0.969s] -- Configured cppcheck exclude dirs and/or files: 
+[0.972s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.974s] -- Added test 'lint_cmake' to check CMake code style
+[0.980s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.991s] -- Added test 'uncrustify' to check C / C++ code style
+[0.992s] -- Configured uncrustify additional arguments: 
+[1.002s] -- Added test 'xmllint' to check XML markup files
+[1.008s] -- Configuring done
+[1.017s] -- Generating done
+[1.017s] -- Build files have been written to: /home/mars_host/ros-intro-project/build/ros2_image
+[1.026s] Invoked command in '/home/mars_host/ros-intro-project/build/ros2_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/src/ros2_image -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/install/ros2_image
+[1.027s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_image -- -j2 -l2
+[1.094s] Invoked command in '/home/mars_host/ros-intro-project/build/ros2_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_image -- -j2 -l2
+[1.254s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_image
+[1.307s] -- Install configuration: ""
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ament_index/resource_index/package_run_dependencies/ros2_image
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ament_index/resource_index/parent_prefix_path/ros2_image
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/environment/ament_prefix_path.sh
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/environment/ament_prefix_path.dsv
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/environment/path.sh
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/environment/path.dsv
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/local_setup.bash
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/local_setup.sh
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/local_setup.zsh
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/local_setup.dsv
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/package.dsv
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ament_index/resource_index/packages/ros2_image
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/cmake/ros2_imageConfig.cmake
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/cmake/ros2_imageConfig-version.cmake
+[1.308s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/package.xml
+[1.311s] Invoked command in '/home/mars_host/ros-intro-project/build/ros2_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_image

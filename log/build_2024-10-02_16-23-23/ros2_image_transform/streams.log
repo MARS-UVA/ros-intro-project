@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_image_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_image_transform -- -j2 -l2
+[0.097s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.297s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.335s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.337s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.353s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.405s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.433s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.433s]   ament_target_dependencies() the first argument must be a valid target name
+[0.434s] Call Stack (most recent call first):
+[0.434s]   CMakeLists.txt:16 (ament_target_dependencies)
+[0.434s] 
+[0.434s] [0m
+[0.436s] -- Configuring incomplete, errors occurred!
+[0.436s] See also "/home/mars_host/ros-intro-project/build/ros2_image_transform/CMakeFiles/CMakeOutput.log".
+[0.448s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.469s] Invoked command in '/home/mars_host/ros-intro-project/build/ros2_image_transform' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_image_transform -- -j2 -l2

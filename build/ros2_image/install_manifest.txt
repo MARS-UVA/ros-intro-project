@@ -1,0 +1,15 @@
+/home/mars_host/ros-intro-project/install/ros2_image/share/ament_index/resource_index/package_run_dependencies/ros2_image
+/home/mars_host/ros-intro-project/install/ros2_image/share/ament_index/resource_index/parent_prefix_path/ros2_image
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/environment/ament_prefix_path.sh
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/environment/ament_prefix_path.dsv
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/environment/path.sh
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/environment/path.dsv
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/local_setup.bash
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/local_setup.sh
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/local_setup.zsh
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/local_setup.dsv
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/package.dsv
+/home/mars_host/ros-intro-project/install/ros2_image/share/ament_index/resource_index/packages/ros2_image
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/cmake/ros2_imageConfig.cmake
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/cmake/ros2_imageConfig-version.cmake
+/home/mars_host/ros-intro-project/install/ros2_image/share/ros2_image/package.xml

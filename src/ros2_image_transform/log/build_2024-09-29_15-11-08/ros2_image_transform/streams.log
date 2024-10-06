@@ -1,0 +1,47 @@
+[0.028s] Invoking command in '/home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/src/ros2_image_transform -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.366s] -- The CXX compiler identification is GNU 11.4.0
+[0.379s] -- Detecting C compiler ABI info
+[0.533s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.544s] -- Detecting C compile features
+[0.545s] -- Detecting C compile features - done
+[0.547s] -- Detecting CXX compiler ABI info
+[0.712s] -- Detecting CXX compiler ABI info - done
+[0.718s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.718s] -- Detecting CXX compile features
+[0.720s] -- Detecting CXX compile features - done
+[0.730s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.947s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.063s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.153s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.153s] -- Configured cppcheck include dirs: 
+[1.153s] -- Configured cppcheck exclude dirs and/or files: 
+[1.153s] -- Added test 'lint_cmake' to check CMake code style
+[1.156s] -- Added test 'uncrustify' to check C / C++ code style
+[1.156s] -- Configured uncrustify additional arguments: 
+[1.157s] -- Added test 'xmllint' to check XML markup files
+[1.158s] -- Configuring done
+[1.161s] -- Generating done
+[1.163s] -- Build files have been written to: /home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform
+[1.170s] Invoked command in '/home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/src/ros2_image_transform -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform
+[1.183s] Invoking command in '/home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform -- -j2 -l2
+[1.257s] Invoked command in '/home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform -- -j2 -l2
+[1.342s] Invoking command in '/home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform
+[1.352s] -- Install configuration: ""
+[1.354s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ament_index/resource_index/package_run_dependencies/ros2_image_transform
+[1.354s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ament_index/resource_index/parent_prefix_path/ros2_image_transform
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/environment/ament_prefix_path.sh
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/environment/ament_prefix_path.dsv
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/environment/path.sh
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/environment/path.dsv
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/local_setup.bash
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/local_setup.sh
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/local_setup.zsh
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/local_setup.dsv
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/package.dsv
+[1.355s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ament_index/resource_index/packages/ros2_image_transform
+[1.357s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/cmake/ros2_image_transformConfig.cmake
+[1.357s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/cmake/ros2_image_transformConfig-version.cmake
+[1.358s] -- Installing: /home/mars_host/ros-intro-project/src/ros2_image_transform/install/ros2_image_transform/share/ros2_image_transform/package.xml
+[1.363s] Invoked command in '/home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/src/ros2_image_transform/build/ros2_image_transform

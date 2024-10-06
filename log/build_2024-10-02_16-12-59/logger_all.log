@@ -1,0 +1,267 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x701e4f64e110>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x701e4f64d4b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x701e4f64d4b0>>, mixin_verb=('build',))
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mars_host/ros-intro-project'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_image_transform) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_image_transform' with type 'ros.ament_cmake' and name 'ros2_image_transform'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_keyboard) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_keyboard' with type 'ros.ament_cmake' and name 'ros2_keyboard'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_webcam) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_webcam' with type 'ros.ament_cmake' and name 'ros2_webcam'
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/mars_host/mars-ros2/install
+[0.243s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_image_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_image_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mars_host/ros-intro-project/build/ros2_image_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mars_host/ros-intro-project/install/ros2_image_transform', 'merge_install': False, 'path': '/home/mars_host/ros-intro-project/src/ros2_image_transform', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mars_host/ros-intro-project/build/ros2_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mars_host/ros-intro-project/install/ros2_keyboard', 'merge_install': False, 'path': '/home/mars_host/ros-intro-project/src/ros2_keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ros2_webcam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_webcam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mars_host/ros-intro-project/build/ros2_webcam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mars_host/ros-intro-project/install/ros2_webcam', 'merge_install': False, 'path': '/home/mars_host/ros-intro-project/src/ros2_webcam', 'symlink_install': False, 'test_result_base': None}
+[0.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mars_host/ros-intro-project/src/ros2_image_transform' with build type 'ament_cmake'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mars_host/ros-intro-project/src/ros2_image_transform'
+[0.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mars_host/ros-intro-project/src/ros2_keyboard' with build type 'ament_cmake'
+[0.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mars_host/ros-intro-project/src/ros2_keyboard'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mars_host/ros-intro-project/build/ros2_image_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_image_transform -- -j2 -l2
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mars_host/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_keyboard -- -j2 -l2
+[0.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mars_host/ros-intro-project/build/ros2_image_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_image_transform -- -j2 -l2
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mars_host/ros-intro-project/build/ros2_image_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_image_transform
+[0.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_image_transform)
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mars_host/ros-intro-project/build/ros2_image_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_image_transform
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform' for CMake module files
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform' for CMake config files
+[0.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_image_transform', 'cmake_prefix_path')
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/hook/cmake_prefix_path.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/hook/cmake_prefix_path.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/hook/cmake_prefix_path.sh'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform/bin'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform/lib/pkgconfig/ros2_image_transform.pc'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform/lib/python3.10/site-packages'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform/bin'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.sh'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.bash'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.zsh'
+[0.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mars_host/ros-intro-project/install/ros2_image_transform/share/colcon-core/packages/ros2_image_transform)
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mars_host/ros-intro-project/build/ros2_keyboard' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_keyboard -- -j2 -l2
+[0.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_image_transform)
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform' for CMake module files
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform' for CMake config files
+[0.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_image_transform', 'cmake_prefix_path')
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/hook/cmake_prefix_path.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/hook/cmake_prefix_path.dsv'
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/hook/cmake_prefix_path.sh'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform/bin'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform/lib/pkgconfig/ros2_image_transform.pc'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform/lib/python3.10/site-packages'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_image_transform/bin'
+[0.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.sh'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.bash'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_image_transform/share/ros2_image_transform/package.zsh'
+[0.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mars_host/ros-intro-project/install/ros2_image_transform/share/colcon-core/packages/ros2_image_transform)
+[0.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mars_host/ros-intro-project/src/ros2_webcam' with build type 'ament_cmake'
+[0.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mars_host/ros-intro-project/src/ros2_webcam'
+[0.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mars_host/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_keyboard
+[0.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_keyboard)
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard' for CMake module files
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard' for CMake config files
+[0.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_keyboard', 'cmake_prefix_path')
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/hook/cmake_prefix_path.ps1'
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/hook/cmake_prefix_path.dsv'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/hook/cmake_prefix_path.sh'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/lib'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/bin'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/lib/pkgconfig/ros2_keyboard.pc'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/lib/python3.10/site-packages'
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/bin'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.ps1'
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mars_host/ros-intro-project/build/ros2_keyboard' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_keyboard
+[0.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.sh'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.bash'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.zsh'
+[0.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mars_host/ros-intro-project/install/ros2_keyboard/share/colcon-core/packages/ros2_keyboard)
+[0.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mars_host/ros-intro-project/build/ros2_webcam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_webcam -- -j2 -l2
+[0.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_keyboard)
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard' for CMake module files
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard' for CMake config files
+[0.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_keyboard', 'cmake_prefix_path')
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/hook/cmake_prefix_path.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/hook/cmake_prefix_path.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/hook/cmake_prefix_path.sh'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/lib'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/bin'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/lib/pkgconfig/ros2_keyboard.pc'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/lib/python3.10/site-packages'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_keyboard/bin'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.sh'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.bash'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.zsh'
+[0.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mars_host/ros-intro-project/install/ros2_keyboard/share/colcon-core/packages/ros2_keyboard)
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mars_host/ros-intro-project/build/ros2_webcam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_webcam -- -j2 -l2
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mars_host/ros-intro-project/build/ros2_webcam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_webcam
+[1.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_webcam)
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mars_host/ros-intro-project/build/ros2_webcam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_webcam
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam' for CMake module files
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam' for CMake config files
+[1.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_webcam', 'cmake_prefix_path')
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/hook/cmake_prefix_path.ps1'
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/hook/cmake_prefix_path.dsv'
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/hook/cmake_prefix_path.sh'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/lib'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/bin'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/lib/pkgconfig/ros2_webcam.pc'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/lib/python3.10/site-packages'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/bin'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.ps1'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.sh'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.bash'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.zsh'
+[1.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mars_host/ros-intro-project/install/ros2_webcam/share/colcon-core/packages/ros2_webcam)
+[1.295s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_webcam)
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam' for CMake module files
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam' for CMake config files
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_webcam', 'cmake_prefix_path')
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/hook/cmake_prefix_path.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/hook/cmake_prefix_path.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/hook/cmake_prefix_path.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/lib'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/bin'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/lib/pkgconfig/ros2_webcam.pc'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/lib/python3.10/site-packages'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/mars_host/ros-intro-project/install/ros2_webcam/bin'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.ps1'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.sh'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.bash'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/mars_host/ros-intro-project/install/ros2_webcam/share/ros2_webcam/package.zsh'
+[1.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mars_host/ros-intro-project/install/ros2_webcam/share/colcon-core/packages/ros2_webcam)
+[1.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.305s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.311s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.347s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mars_host/ros-intro-project/install/local_setup.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mars_host/ros-intro-project/install/_local_setup_util_ps1.py'
+[1.349s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mars_host/ros-intro-project/install/setup.ps1'
+[1.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mars_host/ros-intro-project/install/local_setup.sh'
+[1.361s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mars_host/ros-intro-project/install/_local_setup_util_sh.py'
+[1.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mars_host/ros-intro-project/install/setup.sh'
+[1.363s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mars_host/ros-intro-project/install/local_setup.bash'
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mars_host/ros-intro-project/install/setup.bash'
+[1.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mars_host/ros-intro-project/install/local_setup.zsh'
+[1.365s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mars_host/ros-intro-project/install/setup.zsh'

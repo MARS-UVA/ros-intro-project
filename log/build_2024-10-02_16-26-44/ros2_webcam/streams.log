@@ -1,0 +1,10 @@
+[0.008s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_webcam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_webcam -- -j2 -l2
+[0.140s] [  0%] Built target ament_cmake_python_copy_ros2_webcam
+[0.140s] [100%] Built target webcam_pub
+[0.340s] running egg_info
+[0.341s] writing ros2_webcam.egg-info/PKG-INFO
+[0.358s] writing dependency_links to ros2_webcam.egg-info/dependency_links.txt
+[0.358s] writing top-level names to ros2_webcam.egg-info/top_level.txt
+[0.361s] reading manifest file 'ros2_webcam.egg-info/SOURCES.txt'
+[0.362s] writing manifest file 'ros2_webcam.egg-info/SOURCES.txt'
+[0.390s] [100%] Built target ament_cmake_python_build_ros2_webcam_egg

@@ -1,0 +1,18 @@
+[100%] Built target key_pub
+-- Install configuration: ""
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/lib/ros2_keyboard/key_pub
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/package_run_dependencies/ros2_keyboard
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/parent_prefix_path/ros2_keyboard
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/path.sh
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/path.dsv
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.bash
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.sh
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.zsh
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.dsv
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.dsv
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/packages/ros2_keyboard
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig.cmake
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig-version.cmake
+-- Up-to-date: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.xml
