@@ -16,7 +16,7 @@ class WebcamSubscriber(Node):
         self.get_logger().info("Webcam subscriber node init")
         self.subscription = self.create_subscription(  #Creating a subscription with a callback
             Image,
-            'webcam_topic',
+            'disp_topic',
             self.listener_callback,
             10  # This number which you see in the C++ publisher nodes as well is the queue size, that is how many messages to keep in the queue (subscriber queue in this case). Any message that exceeds the queue will be dicarded
         )
