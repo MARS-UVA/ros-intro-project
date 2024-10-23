@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000811] (ros2_webcam) JobQueued: {'identifier': 'ros2_webcam', 'dependencies': OrderedDict()}
+[0.000891] (ros2_webcam) JobStarted: {'identifier': 'ros2_webcam'}
+[0.021999] (ros2_webcam) JobProgress: {'identifier': 'ros2_webcam', 'progress': 'cmake'}
+[0.028011] (ros2_webcam) JobProgress: {'identifier': 'ros2_webcam', 'progress': 'build'}
+[0.028077] (ros2_webcam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam', '--', '-j2', '-l2'], 'cwd': '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host/ros-intro-project/src/ros2_webcam/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2234,unix/mars-lunabotics:/tmp/.ICE-unix/2234'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2a7e496_4712_4643_a249_06b20ce4e792'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CF4QU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.105380] (-) TimerEvent: {}
+[0.207408] (-) TimerEvent: {}
+[0.310668] (-) TimerEvent: {}
+[0.366760] (ros2_webcam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target webcam_pub\x1b[0m\n'}
+[0.414413] (-) TimerEvent: {}
+[0.467491] (ros2_webcam) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_ros2_webcam\n'}
+[0.479316] (ros2_webcam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/webcam_pub.dir/src/webcam_image_publisher.cpp.o\x1b[0m\n'}
+[0.516182] (-) TimerEvent: {}
+[13.414724] (-) TimerEvent: {}
+[14.005223] (-) TimerEvent: {}
+[14.006623] (ros2_webcam) StdoutLine: {'line': b'running egg_info\n'}
+[14.007868] (ros2_webcam) StdoutLine: {'line': b'writing ros2_webcam.egg-info/PKG-INFO\n'}
+[14.008620] (ros2_webcam) StdoutLine: {'line': b'writing dependency_links to ros2_webcam.egg-info/dependency_links.txt\n'}
+[14.011405] (ros2_webcam) StdoutLine: {'line': b'writing top-level names to ros2_webcam.egg-info/top_level.txt\n'}
+[14.019845] (ros2_webcam) StdoutLine: {'line': b"reading manifest file 'ros2_webcam.egg-info/SOURCES.txt'\n"}
+[14.020316] (ros2_webcam) StdoutLine: {'line': b"writing manifest file 'ros2_webcam.egg-info/SOURCES.txt'\n"}
+[14.114609] (-) TimerEvent: {}
+[14.163158] (ros2_webcam) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_ros2_webcam_egg\n'}
+[14.361506] (-) TimerEvent: {}
+[14.398329] (ros2_webcam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable webcam_pub\x1b[0m\n'}
+[14.463665] (-) TimerEvent: {}
+[14.566809] (-) TimerEvent: {}
+[14.669571] (-) TimerEvent: {}
+[14.772772] (-) TimerEvent: {}
+[14.875830] (-) TimerEvent: {}
+[14.979158] (-) TimerEvent: {}
+[15.080897] (-) TimerEvent: {}
+[15.183456] (-) TimerEvent: {}
+[15.293020] (-) TimerEvent: {}
+[15.405186] (-) TimerEvent: {}
+[15.506034] (-) TimerEvent: {}
+[15.626540] (-) TimerEvent: {}
+[15.728057] (-) TimerEvent: {}
+[15.829500] (-) TimerEvent: {}
+[15.930758] (-) TimerEvent: {}
+[16.033485] (-) TimerEvent: {}
+[16.134403] (-) TimerEvent: {}
+[16.271931] (-) TimerEvent: {}
+[16.681539] (-) TimerEvent: {}
+[16.742548] (ros2_webcam) StdoutLine: {'line': b'[100%] Built target webcam_pub\n'}
+[16.783338] (-) TimerEvent: {}
+[16.802856] (ros2_webcam) CommandEnded: {'returncode': 0}
+[16.883941] (-) TimerEvent: {}
+[16.964518] (ros2_webcam) JobProgress: {'identifier': 'ros2_webcam', 'progress': 'install'}
+[16.980256] (ros2_webcam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam'], 'cwd': '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host/ros-intro-project/src/ros2_webcam/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2234,unix/mars-lunabotics:/tmp/.ICE-unix/2234'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2a7e496_4712_4643_a249_06b20ce4e792'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CF4QU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.987551] (-) TimerEvent: {}
+[17.009090] (ros2_webcam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.009504] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/lib/ros2_webcam/webcam_pub\n'}
+[17.009794] (ros2_webcam) StdoutLine: {'line': b'-- Set runtime path of "/home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/lib/ros2_webcam/webcam_pub" to ""\n'}
+[17.010208] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/pythonpath.sh\n'}
+[17.011390] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/pythonpath.dsv\n'}
+[17.012431] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info\n'}
+[17.012992] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.013633] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.025544] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.025815] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.025935] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam\n'}
+[17.026041] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam/__init__.py\n'}
+[17.094147] (-) TimerEvent: {}
+[17.114839] (ros2_webcam) StdoutLine: {'line': b"Listing '/home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam'...\n"}
+[17.115052] (ros2_webcam) StdoutLine: {'line': b"Compiling '/home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/local/lib/python3.10/dist-packages/ros2_webcam/__init__.py'...\n"}
+[17.118567] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/lib/ros2_webcam/display.py\n'}
+[17.121034] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ament_index/resource_index/package_run_dependencies/ros2_webcam\n'}
+[17.121284] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ament_index/resource_index/parent_prefix_path/ros2_webcam\n'}
+[17.121986] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/ament_prefix_path.sh\n'}
+[17.122739] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/ament_prefix_path.dsv\n'}
+[17.123115] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/path.sh\n'}
+[17.130141] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/environment/path.dsv\n'}
+[17.130447] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/local_setup.bash\n'}
+[17.130610] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/local_setup.sh\n'}
+[17.130750] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/local_setup.zsh\n'}
+[17.130886] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/local_setup.dsv\n'}
+[17.131020] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/package.dsv\n'}
+[17.131725] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ament_index/resource_index/packages/ros2_webcam\n'}
+[17.131884] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/cmake/ros2_webcamConfig.cmake\n'}
+[17.132069] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/cmake/ros2_webcamConfig-version.cmake\n'}
+[17.132226] (ros2_webcam) StdoutLine: {'line': b'-- Installing: /home/mars_host/ros-intro-project/src/ros2_webcam/install/ros2_webcam/share/ros2_webcam/package.xml\n'}
+[17.146419] (ros2_webcam) CommandEnded: {'returncode': 0}
+[17.199935] (-) TimerEvent: {}
+[17.302894] (-) TimerEvent: {}
+[17.323069] (ros2_webcam) JobEnded: {'identifier': 'ros2_webcam', 'rc': 0}
+[17.325426] (-) EventReactorShutdown: {}

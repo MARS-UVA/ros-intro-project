@@ -1,0 +1,9 @@
+[0.063s] Invoking command in '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam -- -j2 -l2
+[0.123s] [31mCMake Error at CMakeLists.txt:24:
+[0.123s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.123s] 
+[0.123s] [0m
+[0.123s] -- Configuring incomplete, errors occurred!
+[0.123s] See also "/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam/CMakeFiles/CMakeOutput.log".
+[0.130s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
+[0.206s] Invoked command in '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam -- -j2 -l2

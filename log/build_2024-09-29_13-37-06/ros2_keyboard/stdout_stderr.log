@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target key_pub[0m
+[100%] Built target key_pub
+-- Install configuration: ""
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/lib/ros2_keyboard/key_pub
+-- Set runtime path of "/home/mars_host/ros-intro-project/install/ros2_keyboard/lib/ros2_keyboard/key_pub" to ""
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/package_run_dependencies/ros2_keyboard
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/parent_prefix_path/ros2_keyboard
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.sh
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.dsv
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/path.sh
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/path.dsv
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.bash
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.sh
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.zsh
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.dsv
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.dsv
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/packages/ros2_keyboard
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig.cmake
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig-version.cmake
+-- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.xml

@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.004128] (ros2_webcam) JobQueued: {'identifier': 'ros2_webcam', 'dependencies': OrderedDict()}
+[0.004220] (ros2_webcam) JobStarted: {'identifier': 'ros2_webcam'}
+[0.029468] (ros2_webcam) JobProgress: {'identifier': 'ros2_webcam', 'progress': 'cmake'}
+[0.031907] (ros2_webcam) JobProgress: {'identifier': 'ros2_webcam', 'progress': 'build'}
+[0.033384] (ros2_webcam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam', '--', '-j2', '-l2'], 'cwd': '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host/ros-intro-project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2234,unix/mars-lunabotics:/tmp/.ICE-unix/2234'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2a7e496_4712_4643_a249_06b20ce4e792'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CF4QU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100535] (-) TimerEvent: {}
+[0.204228] (-) TimerEvent: {}
+[0.206371] (ros2_webcam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target webcam_pub\x1b[0m\n'}
+[0.302418] (ros2_webcam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/webcam_pub.dir/src/webcam_image_publisher.cpp.o\x1b[0m\n'}
+[0.307652] (-) TimerEvent: {}
+[0.336319] (ros2_webcam) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_ros2_webcam\n'}
+[0.412925] (-) TimerEvent: {}
+[0.923743] (-) TimerEvent: {}
+[0.924308] (ros2_webcam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars_host/ros-intro-project/src/ros2_webcam/src/webcam_image_publisher.cpp:15:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating > character\n'}
+[0.924728] (ros2_webcam) StderrLine: {'line': b'   15 | #include <opencv2/opencv.hpp\n'}
+[0.925016] (ros2_webcam) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.029977] (ros2_webcam) StdoutLine: {'line': b'running egg_info\n'}
+[1.030279] (-) TimerEvent: {}
+[1.040711] (ros2_webcam) StdoutLine: {'line': b'writing ros2_webcam.egg-info/PKG-INFO\n'}
+[1.040986] (ros2_webcam) StdoutLine: {'line': b'writing dependency_links to ros2_webcam.egg-info/dependency_links.txt\n'}
+[1.041118] (ros2_webcam) StdoutLine: {'line': b'writing top-level names to ros2_webcam.egg-info/top_level.txt\n'}
+[1.058538] (ros2_webcam) StdoutLine: {'line': b"reading manifest file 'ros2_webcam.egg-info/SOURCES.txt'\n"}
+[1.058883] (ros2_webcam) StdoutLine: {'line': b"writing manifest file 'ros2_webcam.egg-info/SOURCES.txt'\n"}
+[1.142541] (-) TimerEvent: {}
+[1.172197] (ros2_webcam) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_ros2_webcam_egg\n'}
+[2.523684] (-) TimerEvent: {}
+[2.625580] (-) TimerEvent: {}
+[2.731880] (-) TimerEvent: {}
+[2.832505] (-) TimerEvent: {}
+[2.933146] (-) TimerEvent: {}
+[3.037068] (-) TimerEvent: {}
+[3.140823] (-) TimerEvent: {}
+[3.247738] (-) TimerEvent: {}
+[3.363680] (-) TimerEvent: {}
+[3.464943] (-) TimerEvent: {}
+[3.571965] (-) TimerEvent: {}
+[3.672386] (-) TimerEvent: {}
+[3.779035] (-) TimerEvent: {}
+[3.880512] (-) TimerEvent: {}
+[3.982654] (-) TimerEvent: {}
+[4.092900] (-) TimerEvent: {}
+[4.198352] (-) TimerEvent: {}
+[4.301423] (-) TimerEvent: {}
+[4.406924] (-) TimerEvent: {}
+[4.508645] (-) TimerEvent: {}
+[4.609716] (-) TimerEvent: {}
+[4.710492] (-) TimerEvent: {}
+[4.813509] (-) TimerEvent: {}
+[4.914151] (-) TimerEvent: {}
+[5.033641] (-) TimerEvent: {}
+[5.134569] (-) TimerEvent: {}
+[5.235477] (-) TimerEvent: {}
+[5.339982] (-) TimerEvent: {}
+[5.454776] (-) TimerEvent: {}
+[5.565868] (-) TimerEvent: {}
+[5.710006] (-) TimerEvent: {}
+[5.811152] (-) TimerEvent: {}
+[5.912294] (-) TimerEvent: {}
+[6.013241] (-) TimerEvent: {}
+[6.115338] (-) TimerEvent: {}
+[6.216179] (-) TimerEvent: {}
+[6.318937] (-) TimerEvent: {}
+[6.419832] (-) TimerEvent: {}
+[6.524719] (-) TimerEvent: {}
+[6.626702] (-) TimerEvent: {}
+[6.733041] (-) TimerEvent: {}
+[6.838136] (-) TimerEvent: {}
+[6.942238] (-) TimerEvent: {}
+[7.043215] (-) TimerEvent: {}
+[7.144060] (-) TimerEvent: {}
+[7.245682] (-) TimerEvent: {}
+[7.363579] (-) TimerEvent: {}
+[7.466153] (-) TimerEvent: {}
+[7.572798] (-) TimerEvent: {}
+[7.674465] (-) TimerEvent: {}
+[7.808929] (-) TimerEvent: {}
+[7.914825] (-) TimerEvent: {}
+[8.015622] (-) TimerEvent: {}
+[8.119930] (-) TimerEvent: {}
+[8.230435] (-) TimerEvent: {}
+[8.332487] (-) TimerEvent: {}
+[8.436452] (-) TimerEvent: {}
+[8.537126] (-) TimerEvent: {}
+[8.638455] (-) TimerEvent: {}
+[8.742093] (-) TimerEvent: {}
+[8.843495] (-) TimerEvent: {}
+[8.944193] (-) TimerEvent: {}
+[9.046520] (-) TimerEvent: {}
+[9.149797] (-) TimerEvent: {}
+[9.253047] (-) TimerEvent: {}
+[9.353870] (-) TimerEvent: {}
+[9.460752] (-) TimerEvent: {}
+[9.566167] (-) TimerEvent: {}
+[9.669163] (-) TimerEvent: {}
+[9.771226] (-) TimerEvent: {}
+[9.883143] (-) TimerEvent: {}
+[9.984301] (-) TimerEvent: {}
+[10.089671] (-) TimerEvent: {}
+[10.190256] (-) TimerEvent: {}
+[10.291767] (-) TimerEvent: {}
+[10.393303] (-) TimerEvent: {}
+[10.497698] (-) TimerEvent: {}
+[10.608159] (-) TimerEvent: {}
+[10.708786] (-) TimerEvent: {}
+[10.809466] (-) TimerEvent: {}
+[10.913669] (-) TimerEvent: {}
+[11.040488] (-) TimerEvent: {}
+[11.146061] (-) TimerEvent: {}
+[11.247017] (-) TimerEvent: {}
+[11.353609] (-) TimerEvent: {}
+[11.456744] (-) TimerEvent: {}
+[11.558970] (-) TimerEvent: {}
+[11.663177] (-) TimerEvent: {}
+[11.765768] (-) TimerEvent: {}
+[11.867081] (-) TimerEvent: {}
+[11.969706] (-) TimerEvent: {}
+[12.081959] (-) TimerEvent: {}
+[12.195125] (-) TimerEvent: {}
+[12.296011] (-) TimerEvent: {}
+[12.396748] (-) TimerEvent: {}
+[12.497814] (-) TimerEvent: {}
+[12.598573] (-) TimerEvent: {}
+[12.699247] (-) TimerEvent: {}
+[12.800237] (-) TimerEvent: {}
+[12.901812] (-) TimerEvent: {}
+[13.002539] (-) TimerEvent: {}
+[13.103018] (-) TimerEvent: {}
+[13.206615] (-) TimerEvent: {}
+[13.307505] (-) TimerEvent: {}
+[13.408561] (-) TimerEvent: {}
+[13.521174] (-) TimerEvent: {}
+[13.621788] (-) TimerEvent: {}
+[13.636697] (ros2_webcam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/webcam_pub.dir/build.make:76: CMakeFiles/webcam_pub.dir/src/webcam_image_publisher.cpp.o] Error 1\n'}
+[13.637287] (ros2_webcam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/webcam_pub.dir/all] Error 2\n'}
+[13.637466] (ros2_webcam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.642505] (ros2_webcam) CommandEnded: {'returncode': 2}
+[13.722081] (-) TimerEvent: {}
+[13.786062] (ros2_webcam) JobEnded: {'identifier': 'ros2_webcam', 'rc': 2}
+[13.804097] (-) EventReactorShutdown: {}

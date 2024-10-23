@@ -1,0 +1,49 @@
+[0.128s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/src/ros2_keyboard -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/install/ros2_keyboard
+[0.855s] -- The C compiler identification is GNU 11.4.0
+[1.692s] -- The CXX compiler identification is GNU 11.4.0
+[1.747s] -- Detecting C compiler ABI info
+[2.430s] -- Detecting C compiler ABI info - done
+[2.543s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.552s] -- Detecting C compile features
+[2.556s] -- Detecting C compile features - done
+[2.584s] -- Detecting CXX compiler ABI info
+[3.123s] -- Detecting CXX compiler ABI info - done
+[3.141s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.141s] -- Detecting CXX compile features
+[3.149s] -- Detecting CXX compile features - done
+[3.149s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.813s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.233s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.525s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.566s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.663s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.201s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.711s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.802s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.182s] -- Looking for pthread.h
+[6.663s] -- Looking for pthread.h - found
+[6.673s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.984s] -- Found Threads: TRUE  
+[7.404s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.856s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.857s] -- Configured cppcheck include dirs: /home/mars_host/ros-intro-project/src/ros2_keyboard/include
+[7.857s] -- Configured cppcheck exclude dirs and/or files: 
+[7.862s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.871s] -- Added test 'lint_cmake' to check CMake code style
+[7.873s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.876s] -- Added test 'uncrustify' to check C / C++ code style
+[7.877s] -- Configured uncrustify additional arguments: 
+[7.887s] -- Added test 'xmllint' to check XML markup files
+[7.905s] -- Configuring done
+[8.024s] -- Generating done
+[8.024s] -- Build files have been written to: /home/mars_host/ros-intro-project/build/ros2_keyboard
+[8.063s] Invoked command in '/home/mars_host/ros-intro-project/build/ros2_keyboard' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mars_host/ros-intro-project/src/ros2_keyboard -DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/install/ros2_keyboard
+[8.065s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_keyboard -- -j2 -l2
+[8.279s] [ 50%] [32mBuilding CXX object CMakeFiles/key_pub.dir/src/key_publisher.cpp.o[0m
+[33.316s] [100%] [32m[1mLinking CXX executable key_pub[0m
+[34.265s] [100%] Built target key_pub

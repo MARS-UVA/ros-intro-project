@@ -1,0 +1,18 @@
+[0.030s] Invoking command in '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam -- -j2 -l2
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target webcam_pub[0m
+[0.299s] [ 50%] [32mBuilding CXX object CMakeFiles/webcam_pub.dir/src/webcam_image_publisher.cpp.o[0m
+[0.332s] [ 50%] Built target ament_cmake_python_copy_ros2_webcam
+[0.920s] [01m[K/home/mars_host/ros-intro-project/src/ros2_webcam/src/webcam_image_publisher.cpp:15:29:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+[0.921s]    15 | #include <opencv2/opencv.hpp
+[0.921s]       |                             [01;31m[K^[m[K
+[1.026s] running egg_info
+[1.037s] writing ros2_webcam.egg-info/PKG-INFO
+[1.037s] writing dependency_links to ros2_webcam.egg-info/dependency_links.txt
+[1.037s] writing top-level names to ros2_webcam.egg-info/top_level.txt
+[1.055s] reading manifest file 'ros2_webcam.egg-info/SOURCES.txt'
+[1.055s] writing manifest file 'ros2_webcam.egg-info/SOURCES.txt'
+[1.168s] [ 50%] Built target ament_cmake_python_build_ros2_webcam_egg
+[13.633s] gmake[2]: *** [CMakeFiles/webcam_pub.dir/build.make:76: CMakeFiles/webcam_pub.dir/src/webcam_image_publisher.cpp.o] Error 1
+[13.633s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/webcam_pub.dir/all] Error 2
+[13.633s] gmake: *** [Makefile:146: all] Error 2
+[13.639s] Invoked command in '/home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/src/ros2_webcam/build/ros2_webcam -- -j2 -l2

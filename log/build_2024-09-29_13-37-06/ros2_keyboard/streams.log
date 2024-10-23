@@ -1,0 +1,24 @@
+[0.090s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_keyboard -- -j2 -l2
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target key_pub[0m
+[0.401s] [100%] Built target key_pub
+[0.495s] Invoked command in '/home/mars_host/ros-intro-project/build/ros2_keyboard' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mars_host/ros-intro-project/build/ros2_keyboard -- -j2 -l2
+[1.028s] Invoking command in '/home/mars_host/ros-intro-project/build/ros2_keyboard': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_keyboard
+[1.110s] -- Install configuration: ""
+[1.111s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/lib/ros2_keyboard/key_pub
+[1.112s] -- Set runtime path of "/home/mars_host/ros-intro-project/install/ros2_keyboard/lib/ros2_keyboard/key_pub" to ""
+[1.113s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/package_run_dependencies/ros2_keyboard
+[1.129s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/parent_prefix_path/ros2_keyboard
+[1.130s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.sh
+[1.131s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/ament_prefix_path.dsv
+[1.131s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/path.sh
+[1.132s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/environment/path.dsv
+[1.132s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.bash
+[1.133s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.sh
+[1.133s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.zsh
+[1.133s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/local_setup.dsv
+[1.133s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.dsv
+[1.133s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ament_index/resource_index/packages/ros2_keyboard
+[1.133s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig.cmake
+[1.133s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/cmake/ros2_keyboardConfig-version.cmake
+[1.133s] -- Installing: /home/mars_host/ros-intro-project/install/ros2_keyboard/share/ros2_keyboard/package.xml
+[1.136s] Invoked command in '/home/mars_host/ros-intro-project/build/ros2_keyboard' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mars_host/ros-intro-project/build/ros2_keyboard

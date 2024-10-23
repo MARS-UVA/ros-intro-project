@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.000589] (ros2_keyboard) JobQueued: {'identifier': 'ros2_keyboard', 'dependencies': OrderedDict()}
+[0.000660] (ros2_webcam) JobQueued: {'identifier': 'ros2_webcam', 'dependencies': OrderedDict()}
+[0.000702] (ros2_keyboard) JobStarted: {'identifier': 'ros2_keyboard'}
+[0.093364] (ros2_webcam) JobStarted: {'identifier': 'ros2_webcam'}
+[0.094787] (-) TimerEvent: {}
+[0.126667] (ros2_keyboard) JobProgress: {'identifier': 'ros2_keyboard', 'progress': 'cmake'}
+[0.127702] (ros2_keyboard) Command: {'cmd': ['/usr/bin/cmake', '/home/mars_host/ros-intro-project/src/ros2_keyboard', '-DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/install/ros2_keyboard'], 'cwd': '/home/mars_host/ros-intro-project/build/ros2_keyboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2234,unix/mars-lunabotics:/tmp/.ICE-unix/2234'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2a7e496_4712_4643_a249_06b20ce4e792'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CF4QU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/build/ros2_keyboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.180819] (ros2_webcam) JobProgress: {'identifier': 'ros2_webcam', 'progress': 'cmake'}
+[0.180982] (ros2_webcam) Command: {'cmd': ['/usr/bin/cmake', '/home/mars_host/ros-intro-project/src/ros2_webcam', '-DCMAKE_INSTALL_PREFIX=/home/mars_host/ros-intro-project/install/ros2_webcam'], 'cwd': '/home/mars_host/ros-intro-project/build/ros2_webcam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2234,unix/mars-lunabotics:/tmp/.ICE-unix/2234'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2a7e496_4712_4643_a249_06b20ce4e792'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CF4QU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/build/ros2_webcam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.235879] (-) TimerEvent: {}
+[0.337555] (-) TimerEvent: {}
+[0.438046] (-) TimerEvent: {}
+[0.542922] (-) TimerEvent: {}
+[0.645440] (-) TimerEvent: {}
+[0.757796] (-) TimerEvent: {}
+[0.812545] (ros2_webcam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.855155] (ros2_keyboard) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.861991] (-) TimerEvent: {}
+[0.963344] (-) TimerEvent: {}
+[1.074558] (-) TimerEvent: {}
+[1.179324] (-) TimerEvent: {}
+[1.292949] (-) TimerEvent: {}
+[1.397254] (-) TimerEvent: {}
+[1.506757] (-) TimerEvent: {}
+[1.614324] (-) TimerEvent: {}
+[1.682826] (ros2_webcam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.692189] (ros2_keyboard) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.717509] (-) TimerEvent: {}
+[1.738167] (ros2_webcam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.747846] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.822683] (-) TimerEvent: {}
+[1.927830] (-) TimerEvent: {}
+[2.033936] (-) TimerEvent: {}
+[2.142428] (-) TimerEvent: {}
+[2.248427] (-) TimerEvent: {}
+[2.353607] (ros2_webcam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.356275] (-) TimerEvent: {}
+[2.378561] (ros2_webcam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.383292] (ros2_webcam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.387837] (ros2_webcam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.425252] (ros2_webcam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.430866] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.461019] (-) TimerEvent: {}
+[2.538024] (ros2_keyboard) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.552517] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.556403] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.562871] (-) TimerEvent: {}
+[2.584418] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.666516] (-) TimerEvent: {}
+[2.767707] (-) TimerEvent: {}
+[2.864686] (ros2_webcam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.869455] (-) TimerEvent: {}
+[2.873540] (ros2_webcam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.873883] (ros2_webcam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.875747] (ros2_webcam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.971078] (-) TimerEvent: {}
+[2.992765] (ros2_webcam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.071540] (-) TimerEvent: {}
+[3.123632] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.141513] (ros2_keyboard) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.141963] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.149363] (ros2_keyboard) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.149870] (ros2_keyboard) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.173642] (-) TimerEvent: {}
+[3.312937] (-) TimerEvent: {}
+[3.419933] (-) TimerEvent: {}
+[3.527109] (-) TimerEvent: {}
+[3.596484] (ros2_webcam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.627309] (-) TimerEvent: {}
+[3.741459] (-) TimerEvent: {}
+[3.813692] (ros2_keyboard) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.867647] (-) TimerEvent: {}
+[3.979950] (-) TimerEvent: {}
+[4.084121] (-) TimerEvent: {}
+[4.186059] (-) TimerEvent: {}
+[4.220896] (ros2_webcam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.233935] (ros2_keyboard) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.285561] (-) TimerEvent: {}
+[4.386435] (-) TimerEvent: {}
+[4.489406] (-) TimerEvent: {}
+[4.525700] (ros2_keyboard) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.526008] (ros2_webcam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.564604] (ros2_webcam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.566538] (ros2_keyboard) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.590414] (-) TimerEvent: {}
+[4.621212] (ros2_webcam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.663457] (ros2_keyboard) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.693169] (-) TimerEvent: {}
+[4.724889] (ros2_keyboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.728847] (ros2_webcam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.793880] (-) TimerEvent: {}
+[4.877359] (ros2_keyboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.882650] (ros2_webcam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.901101] (-) TimerEvent: {}
+[5.013576] (-) TimerEvent: {}
+[5.122031] (-) TimerEvent: {}
+[5.157839] (ros2_webcam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.158866] (ros2_keyboard) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.202027] (ros2_keyboard) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.202268] (ros2_webcam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.223049] (-) TimerEvent: {}
+[5.335950] (-) TimerEvent: {}
+[5.439736] (-) TimerEvent: {}
+[5.551158] (-) TimerEvent: {}
+[5.654415] (-) TimerEvent: {}
+[5.710927] (ros2_keyboard) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.714170] (ros2_webcam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.764162] (-) TimerEvent: {}
+[5.802870] (ros2_keyboard) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.847128] (ros2_webcam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.866983] (-) TimerEvent: {}
+[5.980667] (-) TimerEvent: {}
+[6.049140] (ros2_webcam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.089742] (-) TimerEvent: {}
+[6.129186] (ros2_keyboard) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.181845] (ros2_webcam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.182159] (ros2_keyboard) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.204688] (-) TimerEvent: {}
+[6.320320] (-) TimerEvent: {}
+[6.428447] (-) TimerEvent: {}
+[6.539446] (-) TimerEvent: {}
+[6.599887] (ros2_webcam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.603667] (ros2_webcam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.644556] (-) TimerEvent: {}
+[6.663998] (ros2_keyboard) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.673380] (ros2_keyboard) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.746883] (-) TimerEvent: {}
+[6.851453] (-) TimerEvent: {}
+[6.972716] (ros2_keyboard) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.972978] (-) TimerEvent: {}
+[6.973672] (ros2_webcam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.973860] (ros2_webcam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.983935] (ros2_keyboard) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.074392] (-) TimerEvent: {}
+[7.175921] (-) TimerEvent: {}
+[7.283175] (-) TimerEvent: {}
+[7.367550] (ros2_webcam) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[7.369965] (ros2_webcam) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.387680] (-) TimerEvent: {}
+[7.403927] (ros2_keyboard) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.491362] (-) TimerEvent: {}
+[7.599358] (-) TimerEvent: {}
+[7.676925] (ros2_webcam) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[7.703095] (-) TimerEvent: {}
+[7.744429] (ros2_webcam) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[7.804805] (-) TimerEvent: {}
+[7.856866] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.857762] (ros2_keyboard) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mars_host/ros-intro-project/src/ros2_keyboard/include\n'}
+[7.857963] (ros2_keyboard) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.862648] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.871876] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.873801] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.876821] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.877043] (ros2_keyboard) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.880163] (ros2_keyboard) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.905578] (ros2_keyboard) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.905862] (-) TimerEvent: {}
+[8.020528] (ros2_keyboard) StdoutLine: {'line': b'-- Generating done\n'}
+[8.024473] (-) TimerEvent: {}
+[8.024903] (ros2_keyboard) StdoutLine: {'line': b'-- Build files have been written to: /home/mars_host/ros-intro-project/build/ros2_keyboard\n'}
+[8.063705] (ros2_keyboard) CommandEnded: {'returncode': 0}
+[8.064357] (ros2_keyboard) JobProgress: {'identifier': 'ros2_keyboard', 'progress': 'build'}
+[8.064411] (ros2_keyboard) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mars_host/ros-intro-project/build/ros2_keyboard', '--', '-j2', '-l2'], 'cwd': '/home/mars_host/ros-intro-project/build/ros2_keyboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2234,unix/mars-lunabotics:/tmp/.ICE-unix/2234'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2a7e496_4712_4643_a249_06b20ce4e792'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CF4QU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/build/ros2_keyboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.111331] (ros2_webcam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[8.125667] (ros2_webcam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.126006] (-) TimerEvent: {}
+[8.234617] (-) TimerEvent: {}
+[8.279688] (ros2_keyboard) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/key_pub.dir/src/key_publisher.cpp.o\x1b[0m\n'}
+[8.341671] (-) TimerEvent: {}
+[8.448600] (-) TimerEvent: {}
+[8.537712] (ros2_webcam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.540493] (ros2_webcam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mars_host/ros-intro-project/src/ros2_webcam/include\n'}
+[8.540896] (ros2_webcam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.542484] (ros2_webcam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.543884] (ros2_webcam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.545607] (ros2_webcam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.547751] (ros2_webcam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.548147] (ros2_webcam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.549526] (ros2_webcam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.549723] (-) TimerEvent: {}
+[8.552745] (ros2_webcam) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.619541] (ros2_webcam) StdoutLine: {'line': b'-- Generating done\n'}
+[8.651463] (-) TimerEvent: {}
+[8.664280] (ros2_webcam) StdoutLine: {'line': b'-- Build files have been written to: /home/mars_host/ros-intro-project/build/ros2_webcam\n'}
+[8.677174] (ros2_webcam) CommandEnded: {'returncode': 0}
+[8.705849] (ros2_webcam) JobProgress: {'identifier': 'ros2_webcam', 'progress': 'build'}
+[8.706334] (ros2_webcam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mars_host/ros-intro-project/build/ros2_webcam', '--', '-j2', '-l2'], 'cwd': '/home/mars_host/ros-intro-project/build/ros2_webcam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mars_host'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mars_host'), ('OLDPWD', '/home/mars_host'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2270'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars_host/mars-ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mars_host'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mars_host'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mars_host/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-lunabotics:@/tmp/.ICE-unix/2234,unix/mars-lunabotics:/tmp/.ICE-unix/2234'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2a7e496_4712_4643_a249_06b20ce4e792'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CF4QU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars_host/ros-intro-project/build/ros2_webcam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.758307] (-) TimerEvent: {}
+[8.858976] (-) TimerEvent: {}
+[8.961778] (-) TimerEvent: {}
+[8.989257] (ros2_webcam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/webcam_pub.dir/src/webcam_image_publisher.cpp.o\x1b[0m\n'}
+[9.068521] (-) TimerEvent: {}
+[9.177475] (-) TimerEvent: {}
+[9.223894] (ros2_webcam) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_ros2_webcam\n'}
+[9.278318] (-) TimerEvent: {}
+[9.393346] (-) TimerEvent: {}
+[9.497418] (-) TimerEvent: {}
+[9.606457] (-) TimerEvent: {}
+[9.710780] (-) TimerEvent: {}
+[9.819823] (-) TimerEvent: {}
+[9.922778] (-) TimerEvent: {}
+[10.025164] (-) TimerEvent: {}
+[10.175394] (-) TimerEvent: {}
+[10.277264] (-) TimerEvent: {}
+[10.388502] (-) TimerEvent: {}
+[10.490508] (-) TimerEvent: {}
+[10.596530] (-) TimerEvent: {}
+[10.701446] (-) TimerEvent: {}
+[10.817958] (-) TimerEvent: {}
+[10.945898] (-) TimerEvent: {}
+[11.047183] (-) TimerEvent: {}
+[11.150045] (-) TimerEvent: {}
+[11.178231] (ros2_webcam) StdoutLine: {'line': b'running egg_info\n'}
+[11.214854] (ros2_webcam) StdoutLine: {'line': b'creating ros2_webcam.egg-info\n'}
+[11.215571] (ros2_webcam) StdoutLine: {'line': b'writing ros2_webcam.egg-info/PKG-INFO\n'}
+[11.215997] (ros2_webcam) StdoutLine: {'line': b'writing dependency_links to ros2_webcam.egg-info/dependency_links.txt\n'}
+[11.216223] (ros2_webcam) StdoutLine: {'line': b'writing top-level names to ros2_webcam.egg-info/top_level.txt\n'}
+[11.216685] (ros2_webcam) StdoutLine: {'line': b"writing manifest file 'ros2_webcam.egg-info/SOURCES.txt'\n"}
+[11.244150] (ros2_webcam) StdoutLine: {'line': b"reading manifest file 'ros2_webcam.egg-info/SOURCES.txt'\n"}
+[11.255666] (ros2_webcam) StdoutLine: {'line': b"writing manifest file 'ros2_webcam.egg-info/SOURCES.txt'\n"}
+[11.255961] (-) TimerEvent: {}
+[11.371428] (-) TimerEvent: {}
+[11.487460] (-) TimerEvent: {}
+[11.527358] (ros2_webcam) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_ros2_webcam_egg\n'}
+[11.596722] (-) TimerEvent: {}
+[11.707514] (-) TimerEvent: {}
+[11.732416] (ros2_webcam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars_host/ros-intro-project/src/ros2_webcam/src/webcam_image_publisher.cpp:15:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating > character\n'}
+[11.733024] (ros2_webcam) StderrLine: {'line': b'   15 | #include <opencv2/opencv.hpp\n'}
+[11.733213] (ros2_webcam) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.813426] (-) TimerEvent: {}
+[11.934026] (-) TimerEvent: {}
+[12.041997] (-) TimerEvent: {}
+[12.170783] (-) TimerEvent: {}
+[12.286688] (-) TimerEvent: {}
+[12.390584] (-) TimerEvent: {}
+[12.510384] (-) TimerEvent: {}
+[12.940928] (-) TimerEvent: {}
+[13.057144] (-) TimerEvent: {}
+[13.166916] (-) TimerEvent: {}
+[13.282100] (-) TimerEvent: {}
+[13.390225] (-) TimerEvent: {}
+[13.699607] (-) TimerEvent: {}
+[14.107618] (-) TimerEvent: {}
+[14.533425] (-) TimerEvent: {}
+[14.975713] (-) TimerEvent: {}
+[15.081475] (-) TimerEvent: {}
+[15.204183] (-) TimerEvent: {}
+[15.320967] (-) TimerEvent: {}
+[19.665018] (-) TimerEvent: {}
+[19.803196] (-) TimerEvent: {}
+[20.151312] (-) TimerEvent: {}
+[20.835191] (-) TimerEvent: {}
+[20.943508] (-) TimerEvent: {}
+[21.052892] (-) TimerEvent: {}
+[21.277512] (-) TimerEvent: {}
+[21.385392] (-) TimerEvent: {}
+[21.765115] (-) TimerEvent: {}
+[22.860894] (-) TimerEvent: {}
+[22.987287] (-) TimerEvent: {}
+[23.308540] (-) TimerEvent: {}
+[24.289460] (-) TimerEvent: {}
+[30.495070] (-) TimerEvent: {}
+[30.604839] (-) TimerEvent: {}
+[30.616572] (ros2_webcam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/webcam_pub.dir/build.make:76: CMakeFiles/webcam_pub.dir/src/webcam_image_publisher.cpp.o] Error 1\n'}
+[30.617481] (ros2_webcam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/webcam_pub.dir/all] Error 2\n'}
+[30.618027] (ros2_webcam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.684975] (ros2_webcam) CommandEnded: {'returncode': 2}
+[30.705357] (-) TimerEvent: {}
+[30.811497] (-) TimerEvent: {}
+[30.912472] (-) TimerEvent: {}
+[31.014962] (-) TimerEvent: {}
+[31.018633] (ros2_webcam) JobEnded: {'identifier': 'ros2_webcam', 'rc': 2}
+[31.124053] (-) TimerEvent: {}
+[31.229140] (-) TimerEvent: {}
+[31.335518] (-) TimerEvent: {}
+[31.440442] (-) TimerEvent: {}
+[31.546479] (-) TimerEvent: {}
+[31.651595] (-) TimerEvent: {}
+[31.761833] (-) TimerEvent: {}
+[31.865413] (-) TimerEvent: {}
+[31.970523] (-) TimerEvent: {}
+[32.072245] (-) TimerEvent: {}
+[32.173299] (-) TimerEvent: {}
+[32.276585] (-) TimerEvent: {}
+[32.386123] (-) TimerEvent: {}
+[32.487179] (-) TimerEvent: {}
+[32.587695] (-) TimerEvent: {}
+[32.688936] (-) TimerEvent: {}
+[32.790304] (-) TimerEvent: {}
+[32.905156] (-) TimerEvent: {}
+[33.009832] (-) TimerEvent: {}
+[33.313803] (ros2_keyboard) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable key_pub\x1b[0m\n'}
+[33.316425] (-) TimerEvent: {}
+[33.417991] (-) TimerEvent: {}
+[33.543850] (-) TimerEvent: {}
+[33.653805] (-) TimerEvent: {}
+[33.766795] (-) TimerEvent: {}
+[33.867518] (-) TimerEvent: {}
+[33.972112] (-) TimerEvent: {}
+[34.080021] (-) TimerEvent: {}
+[34.231078] (-) TimerEvent: {}
+[34.265031] (ros2_keyboard) StdoutLine: {'line': b'[100%] Built target key_pub\n'}
+[34.302915] (ros2_keyboard) JobEnded: {'identifier': 'ros2_keyboard', 'rc': 'SIGINT'}
+[34.317347] (-) EventReactorShutdown: {}
